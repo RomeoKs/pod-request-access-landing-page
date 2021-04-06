@@ -1,0 +1,126 @@
+:root {
+    --dark-blue: #121725;
+    --btn-blue: #2C344B;
+    --body-txt: #C2CBE5;
+    --icon-blue: #5A668A;
+    --green: #54E6AF;
+    --red: #FB3E3E;
+    --white-txt: #FFFFFF;
+}
+/* || CSS reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+button {
+    appearance: auto;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: pointer;
+    background-color: transparent;
+    box-sizing: border-box;
+    margin: 0em;
+    font: initial;
+    padding: 0px;
+    border: none; 
+    font-family: 'Kumbh Sans', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+main {
+    flex-grow: 1;
+}
+
+/* ||  GENERAL STYLES*/
+
+body {
+    font-family: 'Chivo', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: var(--body-txt);
+    min-height: 100vh;
+    background-color: var(--dark-blue);
+    position: relative;
+    box-sizing: border-box;
+}
+h1 {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 52px;
+    line-height: 62px;
+    /* or 119% */
+    text-transform: uppercase;
+    color: var(--body-txt);
+    text-align: center;
+}
+/* 	=====================
+	    MOBILE 375px
+    =====================
+*/
+@media(max-width:376px) {
+main {
+    max-width: 327px;
+    margin: auto;
+}
+.logo {
+    max-width: 135px;
+    margin: auto;
+    margin-top: 62px;
+}
+h1 {
+    font-size: 26px;
+    line-height: 38px;
+    margin-top: 50px;
+}
+span {
+    color: var(--green);
+}
+
+}
