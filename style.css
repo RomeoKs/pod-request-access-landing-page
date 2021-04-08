@@ -85,7 +85,6 @@ body {
     line-height: 28px;
     letter-spacing: 0px;
     color: var(--body-txt);
-    min-height: 100vh;
     background-color: var(--dark-blue);
     position: relative;
     box-sizing: border-box;
