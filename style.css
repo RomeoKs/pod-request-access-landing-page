@@ -408,7 +408,7 @@ input[type="email"] {
     ======================
 */
 @media (min-width:1360px) {
-.bg::after {
+.bg::before {
     content: url('./assets/desktop/image-host.jpg');
     position: absolute;
     width: 888px;
