@@ -106,7 +106,7 @@ h1 {
 */
 @media(max-width:420px) {
 
-.bg::after {
+.bg::before {
     content: url('./assets/mobile/image-host.jpg');
     position: absolute;
     top: -62px;
@@ -116,9 +116,7 @@ h1 {
     opacity: 0.2;
     z-index: -1;
 }
-body::after {
-    background-color: var(--dark-blue);
-}
+
 main {
     max-width: 327px;
     margin: auto;
@@ -240,7 +238,7 @@ input[type=submit]:hover {
     =====================
 */
 @media(min-width:420px) and (max-width: 1024px){
-.bg::after {
+.bg::before {
     content: url('./assets/tablet/image-host.jpg');
     position: absolute;
     width: 491px;
@@ -249,9 +247,6 @@ input[type=submit]:hover {
     right: 0;
     z-index: -1;
     opacity: 0.9;
-}
-body::after {
-    background-color: var(--dark-blue);
 }
 main {
     position: relative;
