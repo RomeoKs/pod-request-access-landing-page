@@ -417,9 +417,7 @@ input[type="email"] {
     right: 0;
     opacity: 0.9;
 }
-body::after {
-    background-color: var(--dark-blue);
-}
+
 main {
     position: relative;
 }
