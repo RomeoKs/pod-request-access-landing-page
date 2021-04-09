@@ -12,24 +12,29 @@
   <title>Frontend Mentor | Pod request access landing page</title>
 </head>
 <body>
-  <main>
-    <div class="bck"><img src="./assets/mobile/image-host.jpg" alt="background"></div>
-    <div class="logo"><img src="./assets/desktop/logo.svg" alt="logo"></div>
-    <h1><span>Publish your podcasts</span><br>everywhere</h1>
-    <p>Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
-      Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
-    <div class="podcasts">
-      <img src="./assets/desktop/spotify.svg" class="spotify" alt="Spotify">
-      <img src="./assets/desktop/apple-podcast.svg" class="apple" alt="Applepodcast">
-      <img src="./assets/desktop/google-podcasts.svg" class="google" alt="Googlepodcast">
-      <img src="./assets/desktop/pocket-casts.svg" class="pocket" alt="Pocketcasts">
-    </div>
-    <form novalidate>
-      <input type="email" id="mail" required placeholder="Email address">
-      <div class="error"></div>
-      <input type="submit" name="submit" value="Request access">
-    </form>
-  </main>
+    <main>
+      <div class="bg"></div>
+      <div class="logo"><img src="./assets/desktop/logo.svg" alt="logo"></div>
+      <div class="wrapper">
+        
+        <h1><span>Publish your podcasts</span><br>everywhere.</h1>
+        <p>Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 
+          Apple Podcasts, Google Podcasts, Pocket Casts and more!</p>
+        <div class="bottom_wrap">
+          <div class="podcasts">
+            <img src="./assets/desktop/spotify.svg" class="spotify" alt="Spotify">
+            <img src="./assets/desktop/apple-podcast.svg" class="apple" alt="Applepodcast">
+            <img src="./assets/desktop/google-podcasts.svg" class="google" alt="Googlepodcast">
+            <img src="./assets/desktop/pocket-casts.svg" class="pocket" alt="Pocketcasts">
+          </div>
+          <form novalidate>
+            <input type="email" id="mail" required placeholder="Email address">
+            <div class="error"></div>
+            <input type="submit" name="submit" value="Request access">
+          </form>
+        </div>
+      </div> 
+    </main>
 <script src="./script.js"></script>
 </body>
 </html>

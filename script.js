@@ -1,5 +1,5 @@
 //Version 1
-/* var elements = document.getElementsByTagName("input");
+var elements = document.getElementsByTagName("input");
 for (var i = 0; i < elements.length; i++) {
     elements[i].oninvalid = function(e) {
         e.target.setCustomValidity("");
@@ -10,7 +10,7 @@ for (var i = 0; i < elements.length; i++) {
     elements[i].oninput = function(e) {
         e.target.setCustomValidity("");
     };
-} */
+}
 
 //Version 2
 
