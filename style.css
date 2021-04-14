@@ -104,7 +104,7 @@ h1 {
 	    MOBILE 375px
     =====================
 */
-@media(max-width:420px) {
+@media(max-width:480px) {
 
 .bg::before {
     content: url('./assets/mobile/image-host.jpg');
@@ -237,7 +237,7 @@ input[type=submit]:hover {
 	    TABLET 768px
     =====================
 */
-@media(min-width:420px) and (max-width: 1024px){
+@media(min-width:481px) and (max-width: 1024px){
 .bg::before {
     content: url('./assets/tablet/image-host.jpg');
     position: absolute;
@@ -402,7 +402,7 @@ input[type="email"] {
 	    DESKTOP 1441px
     ======================
 */
-@media (min-width:1360px) {
+@media (min-width:1025px) {
 .bg::before {
     content: url('./assets/desktop/image-host.jpg');
     position: absolute;
